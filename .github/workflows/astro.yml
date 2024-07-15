@@ -43,8 +43,7 @@ jobs:
       NOTION_API_SECRET: ${{ secrets.NOTION_API_SECRET }}
       NODE_VERSION: ${{ vars.NODE_VERSION }}
       PUBLIC_GA_TRACKING_ID: ${{ vars.PUBLIC_GA_TRACKING_ID }}
-      CUSTOM_DOMAIN: weili.me
-      BASE_PATH: /blog/
+      CUSTOM_DOMAIN: blog.weili.me
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
