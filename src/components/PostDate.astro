@@ -14,8 +14,19 @@ const { post } = Astro.props
 </div>
 
 <style>
-  .post-date {
-    padding: 0 0 0.3rem;
-    font-size: 0.9rem;
-  }
+.post-date {
+  font-size: 0.9rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 1;
+  min-width: 0;
+  border-radius: 3px;
+  padding: 2px 6px;
+  line-height: 1.2;
+  color: rgb(50, 48, 44);
+  background: rgba(227, 226, 224, 0.5);
+}
 </style>
