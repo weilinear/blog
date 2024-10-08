@@ -14,9 +14,16 @@
 
 .post {
   margin: 0 auto 40px;
+  border: 1;
+
 }
 .post footer {
   margin-top: 0.5rem;
   padding: 0;
   border: 0;
+}
+.postheader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
